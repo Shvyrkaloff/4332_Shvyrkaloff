@@ -19,6 +19,9 @@ namespace Template_4333
     /// </summary>
     public partial class _4333_Gibadulllina : Window
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="_4333_Gibadulllina"/> class.
+        /// </summary>
         public _4333_Gibadulllina()
         {
             InitializeComponent();

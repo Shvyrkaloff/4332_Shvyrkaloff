@@ -37,5 +37,6 @@
         </Grid.RowDefinitions>
         <Button Grid.Row="15" Content="Автор изменений: Спиридонов Д.Р." Click="Spiridonov_4332_Click" Background="#FFB4C9FF" Width="200" />
         <Button Grid.Row="17" Content="Автор изменений: Хамитова Э.А." Click="Khamitova_4332_Click" Background="#FFB4C9FF" Width="200" />
+        <Button Name="Shvyrkaloff" Grid.Row="21" Content="Автор изменений: Shvyrkaloff" Click="Shvyrkaloff_OnClick" Background="#FFB4C9FF" Width="200" />
     </Grid>
 </Window>

@@ -19,6 +19,9 @@ namespace Template_4332
     /// </summary>
     public partial class _4332_Khamitova : Window
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="_4332_Khamitova"/> class.
+        /// </summary>
         public _4332_Khamitova()
         {
             InitializeComponent();

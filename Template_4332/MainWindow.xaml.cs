@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Template_4332.Application;
 
 namespace Template_4332
 {
@@ -20,8 +21,12 @@ namespace Template_4332
     /// </summary>
     public partial class MainWindow : Window
     {
+        private readonly ApplicationContext _context;
+
         public MainWindow()
         {
+            _context = new ApplicationContext();
+
             InitializeComponent();
         }
         private void Khamitova_4332_Click(object sender, RoutedEventArgs e)
@@ -33,6 +38,17 @@ namespace Template_4332
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void Spiridonov_4332_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Shvyrkaloff_OnClick(object sender, RoutedEventArgs e)
+        {
+            _4332_Shvyrkaloff shvyrkaloff = new _4332_Shvyrkaloff(_context);
+            shvyrkaloff.Show();
         }
     }
 }

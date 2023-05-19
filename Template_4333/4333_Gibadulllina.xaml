@@ -3,6 +3,6 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="_4333_Gibadulllina" Height="300" Width="300">
     <Grid>
-        <Label Content="Гибадуллина Альмира 4333" Margin="10" HorizontalAlignment="Center"/>
+        <Label Content="Гибадуллина Альмира 4335" Margin="10" HorizontalAlignment="Center"/>
     </Grid>
 </Window>

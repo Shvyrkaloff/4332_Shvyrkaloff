@@ -1,24 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+﻿using System.Windows;
 
 namespace Template_4332
 {
     /// <summary>
-    /// Логика взаимодействия для _4332_Spiridonov.xaml
+    /// Class _4332_Spiridonov.
+    /// Implements the <see cref="Window" />
+    /// Implements the <see cref="System.Windows.Markup.IComponentConnector" />
     /// </summary>
+    /// <seealso cref="Window" />
+    /// <seealso cref="System.Windows.Markup.IComponentConnector" />
     public partial class _4332_Spiridonov : Window
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="_4332_Spiridonov"/> class.
+        /// </summary>
         public _4332_Spiridonov()
         {
             InitializeComponent();
